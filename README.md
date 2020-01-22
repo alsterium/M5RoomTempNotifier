@@ -5,4 +5,4 @@ M5Stackと温度センサで部屋の温度をLINE Notify APIで通知
 M5Stackに温度センサDHT12を接続して取得した温度をLINE Notify API経由で10分置きに温度と湿度をポストします。
 本体側の液晶画面には温度・湿度・次の送信までの秒数・HTTPステータスコードと温度グラフが表示されます。
 # Usage
-RoomTemp.ino中の"WIFI_SSID"と"WIFI_PASS"に接続したいWiFiのSSID、パスワードを設定し、![ここ](https://notify-bot.line.me/)で発行したアクセストークンを"api_key"に記述することで、LINEに通知を送ることができます。
+RoomTemp.ino中の"WIFI_SSID"と"WIFI_PASS"に接続したいWiFiのSSID、パスワードを設定し、[ここ](https://notify-bot.line.me/)で発行したアクセストークンを"api_key"に記述することで、LINEに通知を送ることができます。
